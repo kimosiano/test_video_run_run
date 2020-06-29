@@ -15,15 +15,14 @@
 
 
 
-if ARGV.size == 2
+if ARGV.size == 2 && ARGV[0].to_i > 0 && ARGV[1].to_i > 0 
     
     width = ARGV[0] 
     length = ARGV[1]
 
-
     length = length.to_i
     width = width.to_i
-
+    
     #display up cote
     print "A"
     in_widht = width -2
@@ -69,5 +68,5 @@ if ARGV.size == 2
     print "\n"
 
 else
-    puts "Error!! Put 2 parametres: length, width, please"
+    puts "Error!! Put 2 parameters (integer type), larger than zero: length, width, please"
 end
