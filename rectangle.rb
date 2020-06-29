@@ -1,4 +1,5 @@
-
+#!/usr/bin/env ruby
+#To execute your ruby file as scrip
 
 ##################################################################################
 #########  Test Technique Lundi 29 Juin 2020 ------By----- Video Run Run-----#####
@@ -13,7 +14,7 @@
 
 
 
-#!/usr/bin/env ruby
+
 if ARGV.size == 2
     
     width = ARGV[0] 
