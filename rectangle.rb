@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-#To execute your ruby file as scrip
+#To execute your ruby file as script
 
 ##################################################################################
 #########  Test Technique Lundi 29 Juin 2020 ------By----- Video Run Run-----#####
