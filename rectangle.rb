@@ -25,27 +25,26 @@ if ARGV.size == 2
     print "A"
     in_widht = width -2
     in_widht.times do
-        print "*"
+        print "."
     end
     if width > 1
-        print "A"
+        print "B"
     end
 
     for x in 0..length-3 do
-        y=0
+      
         print "\n"
 
-        y += 1
         # disply left cote
-        print "*"
+        print "."
         
         #display inside space
-        for y in y..width-2 do
+        for y in 1..width-2 do
             print " "
         end
         # disply right cote
         if width > 1
-            print "*"
+            print "."
         end
     end
     print "\n"
@@ -57,10 +56,10 @@ if ARGV.size == 2
         x = 1
         for x in 1..width - 2 do
             x += 1
-            print "*"
+            print "."
         end
         if width > 1
-            print "A"
+            print "B"
         end
     end    
 
